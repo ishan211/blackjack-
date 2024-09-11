@@ -1,3 +1,17 @@
+/*
+
+Blackjack++ By Ishan Leung
+Made in C++
+
+Recent additions: Create Deal function to get cards. Make user start with 2 cards
+
+To-Do:
+1) Add hand function; shows hand, user can enter as keyword at anytime w/o using a turn
+2) Add attributes to hit [Bust (Over 21), Stay (Skips to end, dealer can play until done)]
+3) Add dealers turn to it; rn is just draw func only so game starts but can't rlly play a basic game yet
+
+*/
+
 #include <random> //RNG
 #include <vector> //Vectors (Dynamic arr)
 #include <list> //making ls
